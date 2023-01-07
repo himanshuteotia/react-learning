@@ -40,3 +40,14 @@ React provides a number of "hooks" that can be used in function components to pe
 - How does the useMemo hook improve performance by avoiding unnecessary re-renders?
 - How can the useRef hook be used to create a mutable ref object that persists across re-renders?
 - Can you explain the difference between the useEffect and useLayoutEffect hooks? When might you choose to use one over the other?
+
+# useEffect
+
+`useEffect` is a hook in React that allows you to perform side effects in function components. It is similar to the componentDidMount, componentDidUpdate, and componentWillUnmount lifecycle methods in class components.
+
+Here are some examples of things you can do with useEffect:
+
+- Fetch data from an API and update the component's state
+- Set up and clean up subscriptions (e.g., event listeners)
+- Manage the component's DOM (e.g., focus an element, measure the size of an element)
+`useEffect` takes a function as an argument and this function will be called after the component renders. The function can return a clean-up function that will be called before the next time the effect is run.
