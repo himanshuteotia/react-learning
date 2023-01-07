@@ -1,4 +1,6 @@
-# react-learning
+## React Learning
+
+# React Hooks
 
 React provides a number of "hooks" that can be used in function components to perform state management and other tasks. Here is a list of the React function hooks that are currently available:
 
