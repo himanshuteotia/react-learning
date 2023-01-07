@@ -21,3 +21,13 @@ React provides a number of "hooks" that can be used in function components to pe
 `useImperativeHandle`: This hook is used to customize the behavior of a ref passed to a function component. It takes an object and a ref, and updates the ref with the provided object.
 
 `useLayoutEffect`: This hook is similar to useEffect, but it is called synchronously after all DOM mutations. It should be used sparingly, as it can cause visual glitches.
+
+# Hooks interview questions
+
+- How does the useState hook work, and how is it different from using state in a class component?
+- Can you give an example of how you might use the useEffect hook to perform an action after a component renders?
+- How can the useContext hook be used to consume values from a context object?
+- How does the useReducer hook allow you to perform reducer-like logic in a function component?
+- How does the useMemo hook improve performance by avoiding unnecessary re-renders?
+- How can the useRef hook be used to create a mutable ref object that persists across re-renders?
+- Can you explain the difference between the useEffect and useLayoutEffect hooks? When might you choose to use one over the other?
